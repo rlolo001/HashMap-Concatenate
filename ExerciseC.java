@@ -1,14 +1,6 @@
-package com.company;
-//Write a Java Program to concatenate following HashMaps to create a new one. Sample HashMaps :
-//dic1={1=10, 2=20}
-//dic2={3=30, 4=40}
-//dic3={5=50,6=60}
-//Expected Result : {1= 10, 2= 20, 3= 30, 4= 40, 5= 50, 6= 60}
-
-
 import java.util.HashMap;
 
-public class ExerciseC {
+public class HashMapConcatenate {
 
 
     public static void concatenateNum(HashMap<Integer, Integer> map1, HashMap<Integer, Integer> map2, HashMap<Integer, Integer> map3) {
@@ -43,34 +35,3 @@ public class ExerciseC {
     }
 }
 
-
-
-
-
-//    public static  int concatenate(HashMap<Integer>) Concatenate(HashMap<Integer, Integer>values) {
-//        HashMap<Integer, Integer> concatenateNum = new HashMap<>();
-//
-//        for (int i = 0; i < values.length(); i++) {
-//            concatenateNum.add(values(i));
-//        }
-//        for (int i = 0; i < values.length(); i++) {
-//            concatenateNum.add(values(i));
-//        }
-//        return concatenateNum;
-//    }
-//
-//
-//    public static void main(String[] args) {
-//        HashMap<String, Integer>addition = new HashMap<>();
-//
-//        addition.put("1=", 10);
-//        addition.put("2=", 20);
-//        addition.put("3=", 30);
-//        addition.put("4=", 40);
-//        addition.put("5=", 50);
-//        addition.put("6=", 60);
-//
-//
-//        System.out.println(addition.concatenate(addition));
-//    }
-//}
